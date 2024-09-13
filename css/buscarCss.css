@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    
+    min-height: 100vh;
+    /*background-image: url(../imagenes/images.jpg);*/
+    background-color: rgb(71, 10, 83);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cuerpo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container {
+    border: solid 1px rgba(255, 255, 255, 0.2);
+    margin-bottom: 15rem;
+}
+
+input{
+    background-color: #ac18c046;
+}
+
+table {
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+thead {
+    background: rgba(243, 140, 210, 0);
+}
+
+th {
+    padding: 20px 15px ;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 15px;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+}
+
+
+tbody tr {
+    cursor: pointer;
+}
+
+tbody tr:hover {
+    background: rgba(121, 120, 120, 0.26);
+}
+
+nav{
+    margin-bottom: 10rem;
+}
+
+.volver{
+
+    height: 3rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    margin:1rem;
+    transition: .5s;
+}
+
+.volver:hover{
+    background-color: #9b27b034;
+    
+}
+
+
+
+/*------------------------------Imput------------------------------------*/
+
+form{
+    margin: 1rem 0rem;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+    background: transparent;
+    
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: azure;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.form-group input {
+
+    border-radius: 5px;
+    padding: 5px;
+    width: 11rem;
+    font-size: 20px;
+    color: #fff;
+    border: 2px solid #fff;
+    
+}
+
+.form-group a {
+    padding: 8px 15px;
+    background-color: #7e887f;
+    border: none;
+    color: rgb(14, 13, 13);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-group a:hover {
+    background-color: #424242;
+    color: white;
+}
+
+
+@media (max-width: 600px){
+    
+
+    
+
+}

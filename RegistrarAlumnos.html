@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resgistar Alumnos</title>
+  <link rel="stylesheet" href="css/registaralumno.css">
+</head>
+<body>
+
+  <nav>
+    <a href="Inicio.html" class="volver">Volver al inicio</a>
+  </nav>
+
+
+  <div class="cuerpo">
+    <div class="contenedor">
+      <div class="container">
+
+        <h1>Registro de Alumnos</h1>
+
+        <form id="alumnoForm"> 
+
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="ej:Alan" minlength="4"  required>
+          </div>
+
+          <div class="form-group">
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" placeholder="ej:Gomez" minlength="4" required>
+          </div>
+
+          <div class="form-group">
+            <label for="dni">DNI</label>
+            <input type="text" id="dni" placeholder="ej:46372837" minlength="8" maxlength="10" required>
+          </div>
+
+          <div class="form-group">
+            <label for="curso">Curso</label>
+            <input type="text" id="curso" required placeholder="1= 7°3   2= 7°5"> 
+          </div>
+
+          <div class="form-group">
+            <button type="submit" id="regis1" >Registrar</button>
+          </div>
+
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script language="JavaScript" src="js/registrarAlumnos.js"></script>
+</body>
+</html>

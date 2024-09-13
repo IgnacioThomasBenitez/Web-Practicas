@@ -1,0 +1,117 @@
+body{
+    background-color: blanchedalmond;
+    margin: auto;
+}
+
+.barra{
+
+    display: flex;
+    justify-content: start;
+    background-color: rgb(158, 131, 81);
+    padding: 5px 10px;
+
+}
+
+.enlace {
+    
+    color: white;
+    text-decoration:none;
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+a:link {
+    color: white;
+  }
+
+a:visited {
+    color: rgb(196, 173, 140);
+  }
+
+.enlace:hover{
+
+    background-color: white;
+    color: rgb(196, 173, 140);
+
+}
+
+
+
+section{
+    display: flex;
+}
+
+.arti{
+
+    background-color: antiquewhite;
+    padding: 5px ;
+    font-size: 23px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.img-1{
+    width: 500px;
+    height: 300px;
+    border-radius: 20%;
+}
+
+
+.img-div{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-around;
+}
+
+.tipoh4{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 600px){
+
+    .barra{
+        display: flex;
+        flex-direction: column;
+        zoom: 600px;
+    }
+
+    .enlace{
+        padding: 5px;
+        margin: 10px;
+    }
+
+    .arti{
+        display: flex;
+        flex-direction: column;
+        zoom: 600px;
+    }
+
+    .tipoh4{
+        margin-left: -200px;
+        margin-right: auto;
+        zoom: 600px;
+    }
+
+    .img-div{
+        display: flex;
+        flex-direction: column;
+        zoom: 600px;
+    }
+    
+}
+
